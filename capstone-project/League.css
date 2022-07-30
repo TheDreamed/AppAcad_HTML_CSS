@@ -1,4 +1,6 @@
-
+html{
+    overflow-y: scroll;
+}
 .bg{
     background-image: url("dream-drag.jpg");
 }
@@ -25,7 +27,7 @@
     background-color: black;
     background-image: url("bg1.jpg");
     background-size: cover;
-    background;
+
 
 }
 
@@ -122,6 +124,7 @@
 
 
 .full-player-description:{
+    overflow-y: scroll;
     background-color: #f8f8f8;
     flex: none;
     display: flex;
@@ -301,4 +304,22 @@ justify-content: center;
     padding-left: 50px;
     color: white;
     font-size: 20px;
+}
+
+footer{
+    display:block;
+    background-color: #0e0f12;
+    overflow-x: hidden;
+    z-index: 2;
+}
+.footer-container{
+    max-width: 108rem;
+    padding-bottom: 10rem;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
 }
